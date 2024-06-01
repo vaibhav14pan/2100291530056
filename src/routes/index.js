@@ -1,7 +1,7 @@
 
 const express = require("express");
 const router = express.Router();
-const endPointRoutes = require("./endPoints");
+const endPointRoutes = require("./endPoints.added routes and controller");
 
 router.use('number',endPointRoutes);
 
